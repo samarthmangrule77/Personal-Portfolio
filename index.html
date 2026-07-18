@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Samarth — AI/ML Engineer portfolio. Building and deploying machine learning models and intelligent systems that turn data into impact." />
+  <title>Samarth — AI/ML Engineer Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Syne:wght@700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo" id="nav-logo-link">
+        <span class="logo-text">SAMARTH</span>
+        <span class="logo-dot"></span>
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-links" id="nav-links" role="navigation" aria-label="Main navigation">
+        <a href="#home"      class="nav-link active" id="nav-home">Home</a>
+        <a href="#about"     class="nav-link" id="nav-about">About</a>
+        <a href="#services"  class="nav-link" id="nav-services">Services</a>
+        <a href="#skills"    class="nav-link" id="nav-skills">Skills</a>
+        <a href="#portfolio" class="nav-link" id="nav-portfolio">Portfolio</a>
+        <a href="#awards"    class="nav-link" id="nav-awards">Awards</a>
+      </nav>
+      <a href="#contact" class="btn btn-dark pill" id="nav-cta">Get Started</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-inner container">
+      <div class="hero-badge" id="hero-badge" aria-label="Available for work badge">
+        <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="18" cy="18" r="17" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M13 18l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span>Available</span>
+      </div>
+
+      <div class="hero-left">
+        <p class="eyebrow" id="hero-eyebrow">&#8212; HELLO</p>
+        <h1 class="hero-heading" id="hero-heading">
+          I'm <span class="hero-name">Samarth</span><br />
+          <span class="hero-role">AI/ML <span class="accent">Engineer</span></span>
+        </h1>
+        <p class="hero-desc" id="hero-desc">
+          I build and deploy machine learning models and AI-powered systems,
+          turning raw data into intelligent products that solve real-world problems
+          at scale — from research to production.
+        </p>
+        <div class="hero-cta-row" id="hero-cta-row">
+          <a href="#contact" class="btn btn-dark pill" id="hero-cta-talk">Let's Talk</a>
+          <a href="#about"   class="btn btn-outline pill" id="hero-cta-learn">Learn More</a>
+        </div>
+      </div>
+
+      <div class="hero-right" id="hero-right">
+        <div class="portrait-card" id="portrait-card">
+          <img src="portrait.png" alt="Samarth — AI/ML Engineer portrait" class="portrait-img" id="portrait-img" />
+        </div>
+        <div class="float-chip chip-top" id="chip-exp" aria-hidden="true">
+          <strong>5+</strong><span>Years Exp.</span>
+        </div>
+        <div class="float-chip chip-bottom" id="chip-proj" aria-hidden="true">
+          <strong>120+</strong><span>Projects</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="logo-strip" id="logo-strip">
+      <div class="logo-strip-inner container">
+        <span class="strip-label">Stack</span>
+        <div class="strip-logos">
+          <span class="strip-item">Python</span>
+          <span class="strip-sep">&#183;</span>
+          <span class="strip-item">PyTorch</span>
+          <span class="strip-sep">&#183;</span>
+          <span class="strip-item">TensorFlow</span>
+          <span class="strip-sep">&#183;</span>
+          <span class="strip-item">AWS</span>
+          <span class="strip-sep">&#183;</span>
+          <span class="strip-item">Docker</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about-section" id="about">
+    <div class="container about-grid">
+      <div class="about-img-wrap">
+        <img src="portrait.png" alt="About Samarth" class="about-img" loading="lazy" />
+        <div class="about-tag">Since 2019</div>
+      </div>
+      <div class="about-content">
+        <p class="section-eyebrow">&#8212; WHO I AM</p>
+        <h2 class="section-heading">Turning <span class="accent">Data</span> into<br />Intelligent Systems</h2>
+        <p class="section-desc">
+          I'm a passionate AI/ML engineer based in India. With hands-on experience building
+          end-to-end machine learning pipelines, I specialize in deep learning, NLP, computer vision,
+          and MLOps — driven by curiosity, grounded in rigorous experimentation.
+        </p>
+        <ul class="about-stats">
+          <li><strong>120+</strong><span>Projects Completed</span></li>
+          <li><strong>40+</strong><span>Happy Clients</span></li>
+          <li><strong>15+</strong><span>Awards Won</span></li>
+        </ul>
+        <a href="#contact" class="btn btn-dark pill">Hire an AI/ML Engineer</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section services-section" id="services">
+    <div class="container">
+      <div class="section-header centered">
+        <p class="section-eyebrow">&#8212; WHAT I DO</p>
+        <h2 class="section-heading">My <span class="accent">Services</span></h2>
+      </div>
+      <div class="services-grid">
+        <div class="service-card" id="service-brand">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2"/><path d="M16 24l5 5 11-11" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Machine Learning</h3>
+          <p>End-to-end ML pipelines — from data preprocessing and feature engineering to model training, evaluation, and deployment.</p>
+          <a href="#contact" class="card-link">Explore &#8594;</a>
+        </div>
+        <div class="service-card" id="service-ui">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="8" y="10" width="32" height="28" rx="4" stroke="currentColor" stroke-width="2"/><path d="M8 18h32" stroke="currentColor" stroke-width="2"/><circle cx="14" cy="14" r="2" fill="currentColor"/><circle cx="20" cy="14" r="2" fill="currentColor"/></svg>
+          </div>
+          <h3>Deep Learning &amp; NLP</h3>
+          <p>Transformer-based NLP models, computer vision with CNNs, and fine-tuning LLMs for domain-specific applications.</p>
+          <a href="#contact" class="card-link">Explore &#8594;</a>
+        </div>
+        <div class="service-card" id="service-print">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M14 8h20v32H14z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M18 16h12M18 22h12M18 28h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Data Engineering</h3>
+          <p>Building robust ETL pipelines, data warehousing, and feature stores that feed reliable, reproducible model training.</p>
+          <a href="#contact" class="card-link">Explore &#8594;</a>
+        </div>
+        <div class="service-card" id="service-motion">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="16" stroke="currentColor" stroke-width="2"/><path d="M20 18l10 6-10 6V18z" fill="currentColor"/></svg>
+          </div>
+          <h3>MLOps &amp; Deployment</h3>
+          <p>Containerising models with Docker, CI/CD pipelines, serving via FastAPI, and monitoring drift in production on AWS/GCP.</p>
+          <a href="#contact" class="card-link">Explore &#8594;</a>
+        </div>
+        <div class="service-card" id="service-photo">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="6" y="12" width="36" height="28" rx="3" stroke="currentColor" stroke-width="2"/><circle cx="24" cy="26" r="7" stroke="currentColor" stroke-width="2"/><path d="M18 12l2-4h8l2 4" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Computer Vision</h3>
+          <p>Object detection, image classification, segmentation, and real-time inference pipelines using PyTorch and OpenCV.</p>
+          <a href="#contact" class="card-link">Explore &#8594;</a>
+        </div>
+        <div class="service-card" id="service-social">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="12" cy="24" r="5" stroke="currentColor" stroke-width="2"/><circle cx="36" cy="12" r="5" stroke="currentColor" stroke-width="2"/><circle cx="36" cy="36" r="5" stroke="currentColor" stroke-width="2"/><path d="M17 21l14-7M17 27l14 7" stroke="currentColor" stroke-width="2"/></svg>
+          </div>
+          <h3>AI Consulting</h3>
+          <p>Advising teams on model selection, data strategy, and AI roadmaps — translating business problems into solvable ML tasks.</p>
+          <a href="#contact" class="card-link">Explore &#8594;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section skills-section" id="skills">
+    <div class="container skills-grid">
+      <div class="skills-left">
+        <p class="section-eyebrow">&#8212; MY EXPERTISE</p>
+        <h2 class="section-heading">Skills &amp; <span class="accent">Tools</span></h2>
+        <p class="section-desc">
+          Years of obsession with building things that learn means deep fluency across
+          the full ML stack — from exploratory notebooks to production-grade model APIs.
+        </p>
+        <a href="#portfolio" class="btn btn-dark pill">See My Work</a>
+      </div>
+      <div class="skills-right">
+        <div class="skill-item" id="skill-ps">
+          <div class="skill-info"><span>Python</span><span>95%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-pct="95"></div></div>
+        </div>
+        <div class="skill-item" id="skill-ai">
+          <div class="skill-info"><span>PyTorch</span><span>90%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-pct="90"></div></div>
+        </div>
+        <div class="skill-item" id="skill-figma">
+          <div class="skill-info"><span>TensorFlow / Keras</span><span>85%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-pct="85"></div></div>
+        </div>
+        <div class="skill-item" id="skill-ae">
+          <div class="skill-info"><span>scikit-learn</span><span>92%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-pct="92"></div></div>
+        </div>
+        <div class="skill-item" id="skill-id">
+          <div class="skill-info"><span>SQL &amp; Data Engineering</span><span>80%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-pct="80"></div></div>
+        </div>
+        <div class="skill-item" id="skill-blender">
+          <div class="skill-info"><span>Docker / AWS / GCP</span><span>75%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-pct="75"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section class="section portfolio-section" id="portfolio">
+    <div class="container">
+      <div class="section-header centered">
+        <p class="section-eyebrow">&#8212; MY WORK</p>
+        <h2 class="section-heading">Latest <span class="accent">Projects</span></h2>
+      </div>
+      <div class="portfolio-filters" id="portfolio-filters" role="tablist">
+        <button class="filter-btn active" data-filter="all"    role="tab" id="filter-all">All</button>
+        <button class="filter-btn" data-filter="brand"         role="tab" id="filter-brand">ML Models</button>
+        <button class="filter-btn" data-filter="ui"            role="tab" id="filter-ui">NLP</button>
+        <button class="filter-btn" data-filter="print"         role="tab" id="filter-print">Vision</button>
+        <button class="filter-btn" data-filter="motion"        role="tab" id="filter-motion">MLOps</button>
+      </div>
+      <div class="portfolio-grid" id="portfolio-grid">
+        <div class="portfolio-item" data-category="brand" id="port-1">
+          <div class="port-img-wrap">
+            <div class="port-placeholder" style="background:linear-gradient(135deg,#1a1a2e,#16213e)"><span>ML Model</span></div>
+            <div class="port-overlay"><h4>ResNet Classifier</h4><p>Image Classification</p><a href="#" class="port-link">View &#8594;</a></div>
+          </div>
+          <div class="port-meta"><span class="port-tag">ML Models</span><h4>Image Classification Model</h4></div>
+        </div>
+        <div class="portfolio-item" data-category="ui" id="port-2">
+          <div class="port-img-wrap">
+            <div class="port-placeholder" style="background:linear-gradient(135deg,#0f3443,#34e89e 150%)"><span>NLP</span></div>
+            <div class="port-overlay"><h4>SupportBot</h4><p>NLP Chatbot</p><a href="#" class="port-link">View &#8594;</a></div>
+          </div>
+          <div class="port-meta"><span class="port-tag">NLP</span><h4>NLP Customer Support Chatbot</h4></div>
+        </div>
+        <div class="portfolio-item" data-category="print" id="port-3">
+          <div class="port-img-wrap">
+            <div class="port-placeholder" style="background:linear-gradient(135deg,#c94b4b,#4b134f)"><span>Vision</span></div>
+            <div class="port-overlay"><h4>DefectNet</h4><p>Object Detection</p><a href="#" class="port-link">View &#8594;</a></div>
+          </div>
+          <div class="port-meta"><span class="port-tag">Vision</span><h4>Real-Time Defect Detection</h4></div>
+        </div>
+        <div class="portfolio-item" data-category="motion" id="port-4">
+          <div class="port-img-wrap">
+            <div class="port-placeholder" style="background:linear-gradient(135deg,#373b44,#4286f4)"><span>MLOps</span></div>
+            <div class="port-overlay"><h4>PredictPipe</h4><p>Sales Forecasting</p><a href="#" class="port-link">View &#8594;</a></div>
+          </div>
+          <div class="port-meta"><span class="port-tag">MLOps</span><h4>Sales Prediction Pipeline</h4></div>
+        </div>
+        <div class="portfolio-item" data-category="brand" id="port-5">
+          <div class="port-img-wrap">
+            <div class="port-placeholder" style="background:linear-gradient(135deg,#e96c47,#f7c59f)"><span>ML Model</span></div>
+            <div class="port-overlay"><h4>SentimentAI</h4><p>Sentiment Analysis</p><a href="#" class="port-link">View &#8594;</a></div>
+          </div>
+          <div class="port-meta"><span class="port-tag">ML Models</span><h4>Sentiment Analysis Engine</h4></div>
+        </div>
+        <div class="portfolio-item" data-category="ui" id="port-6">
+          <div class="port-img-wrap">
+            <div class="port-placeholder" style="background:linear-gradient(135deg,#141e30,#243b55)"><span>NLP</span></div>
+            <div class="port-overlay"><h4>DocSumm</h4><p>Text Summarisation</p><a href="#" class="port-link">View &#8594;</a></div>
+          </div>
+          <div class="port-meta"><span class="port-tag">NLP</span><h4>Abstractive Document Summariser</h4></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AWARDS -->
+  <section class="section awards-section" id="awards">
+    <div class="container">
+      <div class="section-header centered">
+        <p class="section-eyebrow">&#8212; RECOGNITION</p>
+        <h2 class="section-heading">Awards &amp; <span class="accent">Testimonials</span></h2>
+      </div>
+      <div class="awards-grid">
+        <div class="award-card" id="award-1">
+          <div class="award-icon" aria-hidden="true">&#127942;</div>
+          <h4>Kaggle Expert</h4>
+          <p>Achieved Expert rank on Kaggle with top-10% finishes in multiple ML competitions.</p>
+          <span class="award-year">2024</span>
+        </div>
+        <div class="award-card" id="award-2">
+          <div class="award-icon" aria-hidden="true">&#129351;</div>
+          <h4>Hackathon Winner</h4>
+          <p>1st place at a national AI hackathon for building a real-time fraud detection system.</p>
+          <span class="award-year">2023</span>
+        </div>
+        <div class="award-card" id="award-3">
+          <div class="award-icon" aria-hidden="true">&#10022;</div>
+          <h4>Open Source Contributor</h4>
+          <p>Active contributor to HuggingFace Transformers and scikit-learn with merged PRs.</p>
+          <span class="award-year">2023</span>
+        </div>
+      </div>
+      <div class="testimonials" id="testimonials">
+        <div class="testimonial-card" id="testi-1">
+          <div class="testi-stars" aria-label="5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testi-text">"Samarth's recommendation engine increased our click-through rate by 42%. His ability to translate a vague business problem into a working ML system is genuinely rare."</p>
+          <div class="testi-author">
+            <div class="testi-avatar" aria-hidden="true">JD</div>
+            <div><strong>Jordan Davis</strong><span>CTO, RetailAI Inc.</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card" id="testi-2">
+          <div class="testi-stars" aria-label="5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testi-text">"The NLP pipeline Samarth built cut our support ticket resolution time in half. Clean code, thorough documentation, and delivered ahead of schedule."</p>
+          <div class="testi-author">
+            <div class="testi-avatar" aria-hidden="true">SM</div>
+            <div><strong>Sarah Mitchell</strong><span>Head of Engineering, SupportBot</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card" id="testi-3">
+          <div class="testi-stars" aria-label="5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testi-text">"Samarth brought rigorous experimentation and deep ML intuition to our forecasting problem. The model outperformed our previous vendor solution by a wide margin."</p>
+          <div class="testi-author">
+            <div class="testi-avatar" aria-hidden="true">AK</div>
+            <div><strong>Amara Khan</strong><span>Data Science Lead, PredictPipe</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact-section" id="contact">
+    <div class="container contact-inner">
+      <div class="contact-left">
+        <p class="section-eyebrow">&#8212; GET IN TOUCH</p>
+        <h2 class="section-heading">Let's Build Something<br /><span class="accent">Intelligent</span> Together</h2>
+        <p class="section-desc">Available for freelance ML projects, research collaborations, and full-time AI/ML engineering roles. Drop a message and let's talk.</p>
+        <ul class="contact-details">
+          <li><span class="cd-icon" aria-hidden="true">&#9993;</span><a href="mailto:hello@samarth.dev">hello@samarth.dev</a></li>
+          <li><span class="cd-icon" aria-hidden="true">&#128205;</span><span>New York, NY, USA</span></li>
+          <li><span class="cd-icon" aria-hidden="true">&#128222;</span><a href="tel:+12125550100">+1 (212) 555-0100</a></li>
+        </ul>
+        <div class="social-links">
+          <a href="#" class="social-btn" id="social-dribbble" aria-label="Dribbble">Dr</a>
+          <a href="#" class="social-btn" id="social-behance"  aria-label="Behance">Be</a>
+          <a href="#" class="social-btn" id="social-linkedin" aria-label="LinkedIn">in</a>
+          <a href="#" class="social-btn" id="social-twitter"  aria-label="Twitter / X">&#120143;</a>
+        </div>
+      </div>
+      <form class="contact-form" id="contact-form" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="cf-name">Name</label>
+            <input type="text"  id="cf-name"    name="name"    placeholder="Your name"    autocomplete="name" required />
+          </div>
+          <div class="form-group">
+            <label for="cf-email">Email</label>
+            <input type="email" id="cf-email"   name="email"   placeholder="Your email"   autocomplete="email" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="cf-subject">Subject</label>
+          <input type="text" id="cf-subject" name="subject" placeholder="Project brief or question" />
+        </div>
+        <div class="form-group">
+          <label for="cf-message">Message</label>
+          <textarea id="cf-message" name="message" rows="5" placeholder="Tell me about your project…" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-dark pill full-width" id="cf-submit">Send Message</button>
+        <div class="form-status" id="form-status" role="alert" aria-live="polite"></div>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="footer">
+    <div class="container footer-inner">
+      <a href="#home" class="nav-logo footer-logo">
+        <span class="logo-text">SAMARTH</span><span class="logo-dot"></span>
+      </a>
+      <p class="footer-copy">&#169; <span id="footer-year"></span> Samarth. Built with curiosity.</p>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#portfolio">Work</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <button class="scroll-top" id="scroll-top" aria-label="Back to top">&#8593;</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
