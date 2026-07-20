@@ -62,9 +62,8 @@ This site is static and can be deployed for free on:
 
 ## Contact
 
-- Email: [your-email@example.com]
-- GitHub: [github.com/yourusername]
-- LinkedIn: [linkedin.com/in/yourusername]
+- Email: [samarthmangrule77@gmail.com](mailto:samarthmangrule77@gmail.com)
+- LinkedIn: [samarth-mangrule-4201723b3](https://www.linkedin.com/in/samarth-mangrule-4201723b3/)
 
 ## License
 
